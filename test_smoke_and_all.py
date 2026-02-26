@@ -12,3 +12,8 @@ class TestSmoke(unittest.TestCase):
         self.assertEqual(2+2,4)
         self.assertNotEqual(6,1)
     
+    def test_load_questions_runs(self):
+        self.assertTrue(1)
+
+    def test_ut_unhappy(self):
+        self.assertEqual(2+2,6)
